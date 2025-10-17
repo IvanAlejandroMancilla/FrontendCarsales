@@ -32,10 +32,11 @@ Single Page Application (SPA) desarrollada en Angular 18 con arquitectura de sta
 - **Angular CLI**: 18.2.21
 
 Verifica las versiones:
+```
 node --version
 npm --version
 ng version
-
+```
 git clone https://github.com/IvanAlejandroMancilla/FrontendCarsales.git
 cd FrontendCarsales
 
