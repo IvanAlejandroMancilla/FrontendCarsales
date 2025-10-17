@@ -1,6 +1,7 @@
 # Rick and Morty Frontend
 
-![Autor](https://img.shields.io/badge/Autor-Iv%C3%A1n%20Mancilla-lightgrey)  ![Angular](https://img.shields.io/badge/Angular-18.2.21-DD0031?logo=angular&logoColor=white)  ![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?logo=typescript&logoColor=white)  ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) 
+![Autor](https://img.shields.io/badge/Autor-Iv%C3%A1n%20Mancilla-lightgrey)  ![Angular](https://img.shields.io/badge/Angular-18.2.21-DD0031?logo=angular&logoColor=white)  ![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?logo=typescript&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) 
 ![npm](https://img.shields.io/badge/npm-10+-CB3837?logo=npm&logoColor=white)  ![RxJS](https://img.shields.io/badge/RxJS-7.8+-B7178C?logo=reactivex&logoColor=white)  ![Licencia](https://img.shields.io/badge/Licencia-Unlicense-blue)
 
 Aplicación web Angular que consume la API de Rick and Morty para visualizar episodios, personajes y locaciones de la serie.
