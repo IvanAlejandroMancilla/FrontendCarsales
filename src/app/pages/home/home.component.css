@@ -1,0 +1,52 @@
+/* .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.grid-container {
+  margin-left: 15vh;
+  margin-right: 15vh;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+} */
+.grid-container {
+  margin-left: 15vh;
+  margin-right: 15vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  background-color: #8edba7;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.grid-container > button {
+  background-color: #e0e0e0;
+  color: #000;
+  padding: 40px 0;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #bfbfbf;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.grid-container > button:hover {
+  background-color: #d6d6d6;
+  transform: scale(1.05);
+}
+.h1{margin-left: 20px; margin-top: 20px;}
+
+h2{margin-left: 20px; margin-top: 20px;}
