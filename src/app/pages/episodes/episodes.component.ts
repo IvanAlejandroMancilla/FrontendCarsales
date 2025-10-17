@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EpisodeService } from '../../api';
+import { Route, RouterModule } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-episodes',
@@ -13,7 +15,7 @@ export class EpisodesComponent implements OnInit {
   episodes: any[] = [];
   loading: boolean = false;
 
-  constructor(private episodeService: EpisodeService) {}
+  constructor(private episodeService: EpisodeService, private router: Router) {}
 
   ngOnInit(): void {
     this.obtenerEpisodios();
@@ -38,7 +40,7 @@ export class EpisodesComponent implements OnInit {
     });
   }
 
-  verDetalle(episodio: any): void {
-    console.log('Episodio seleccionado:', episodio);
-  }
+verDetalle(episodio: any): void {
+  this.router.navigate(['/episodes', episodio.id]);
+}
 }
