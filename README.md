@@ -52,25 +52,6 @@ ng serve
 ```
 ng build --configuration production
 ```
-Los archivos compilados estarán en: `dist/`
-## 📂 Estructura del Proyecto
-
-
-src/
-├── app/
-│ ├── pages/
-│ │ ├── home/ # Página principal
-│ │ ├── episodes/ # Lista de episodios
-│ │ ├── episode-detail/ # Detalle de episodio
-│ │ ├── personajes/ # Personajes
-│ │ └── lugares/ # Locaciones
-│ ├── components/
-│ │ └── navbar/ # Barra de navegación
-│ ├── app.component.ts # Componente raíz
-│ └── app.routes.ts # Configuración de rutas
-├── api/ # Servicios generados con OpenAPI
-└── assets/ # Recursos estáticos
-
 ---
 ## ✨ Características
 
