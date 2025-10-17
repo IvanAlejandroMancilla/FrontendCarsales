@@ -55,6 +55,7 @@ ng build --configuration production
 Los archivos compilados estarán en: `dist/`
 ## 📂 Estructura del Proyecto
 
+
 src/
 ├── app/
 │ ├── pages/
