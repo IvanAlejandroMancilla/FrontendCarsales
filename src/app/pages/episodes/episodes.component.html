@@ -8,7 +8,31 @@
   <h3>Lista de Episoodios</h3>
 </div>
 
-<div class="grid-container">
-  <button>Episodios</button>
+<div class="episodes-container">
+  <h2>Episodios de Rick and Morty</h2>
+
+  <div *ngIf="loading" class="loading">
+    Cargando episodios...
+  </div>
+
+<div class="grid-container" *ngIf="!loading">
+    <div *ngFor="let episodio of episodes" class="episode-card">
+      <button
+        class="episode-button"
+        (click)="verDetalle(episodio)">
+        {{ episodio.name }}
+      </button>
+      <div class="episode-info">
+        <span class="episode-number">{{ episodio.episode }} - {{ episodio.air_date }}</span>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="episodes-container">
+  <h2>Episodios de Rick and Morty</h2>
+  <button (click)="obtenerEpisodios()">Obtener Episodios</button>
+</div>
+
+
 </body>
