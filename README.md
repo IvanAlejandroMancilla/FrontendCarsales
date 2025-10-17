@@ -30,6 +30,8 @@ Single Page Application (SPA) desarrollada en Angular 18 con arquitectura de sta
 node --version
 npm --version
 ng version
+// Si notiene laversion 18 instlada
+npm install -g @angular/cli@18.0.0
 ```
 ### Clonar el Repositorio
 ```
