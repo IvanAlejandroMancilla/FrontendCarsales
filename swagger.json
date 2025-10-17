@@ -4,6 +4,12 @@
     "title": "backendRickandMorty",
     "version": "1.0"
   },
+    "servers": [
+    {
+      "url": "https://localhost:7290",
+      "description": "API Gateway local"
+    }
+  ],
   "paths": {
     "/Character": {
       "get": {
