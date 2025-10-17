@@ -1,17 +1,11 @@
 # Rick and Morty Frontend
 
-![Autor](https://img.shields.io/badge/Autor-Iv%C3%A1n%20Mancilla-lightgrey)  
-![Angular](https://img.shields.io/badge/Angular-18.2.21-DD0031?logo=angular&logoColor=white)  
-![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?logo=typescript&logoColor=white)  
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)  
-![npm](https://img.shields.io/badge/npm-10+-CB3837?logo=npm&logoColor=white)  
-![RxJS](https://img.shields.io/badge/RxJS-7.8+-B7178C?logo=reactivex&logoColor=white)  
-![Licencia](https://img.shields.io/badge/Licencia-Unlicense-blue)
+![Autor](https://img.shields.io/badge/Autor-Iv%C3%A1n%20Mancilla-lightgrey)  ![Angular](https://img.shields.io/badge/Angular-18.2.21-DD0031?logo=angular&logoColor=white)  ![TypeScript](https://img.shields.io/badge/TypeScript-5.5+-3178C6?logo=typescript&logoColor=white)  ![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white) 
+![npm](https://img.shields.io/badge/npm-10+-CB3837?logo=npm&logoColor=white)  ![RxJS](https://img.shields.io/badge/RxJS-7.8+-B7178C?logo=reactivex&logoColor=white)  ![Licencia](https://img.shields.io/badge/Licencia-Unlicense-blue)
 
 Aplicación web Angular que consume la API de Rick and Morty para visualizar episodios, personajes y locaciones de la serie.
 
 ---
-
 ## 📋 Descripción
 
 Single Page Application (SPA) desarrollada en Angular 18 con arquitectura de standalone components. Permite explorar el universo de Rick and Morty a través de una interfaz moderna y responsiva.
@@ -30,35 +24,35 @@ Single Page Application (SPA) desarrollada en Angular 18 con arquitectura de sta
 - **Node.js**: 18.x o superior
 - **npm**: 10.x o superior
 - **Angular CLI**: 18.2.21
-
-Verifica las versiones:
+---
+### Verifica las versiones:
 ```
 node --version
 npm --version
 ng version
 ```
+### Clonar el Repositorio
+```
 git clone https://github.com/IvanAlejandroMancilla/FrontendCarsales.git
 cd FrontendCarsales
-
-2. **Instala las dependencias:**
+```
+**Instala las dependencias:**
+```
 npm install
-
+```
 ## ▶️ Ejecución
 ### Modo desarrollo
+```
 ng serve
+```
 
-text
-
-La aplicación estará disponible en: [**http://localhost:4200/**](http://localhost:4200/)
+> **Nota:** La aplicación estará disponible en: [**http://localhost:4200/**](http://localhost:4200/)
 
 ### Build de producción
-
+```
 ng build --configuration production
-
-text
-
+```
 Los archivos compilados estarán en: `dist/`
-
 ## 📂 Estructura del Proyecto
 
 src/
@@ -76,8 +70,7 @@ src/
 ├── api/ # Servicios generados con OpenAPI
 └── assets/ # Recursos estáticos
 
-text
-
+---
 ## ✨ Características
 
 ✅ **Routing con child routes**: `/episodes/:id` para detalles  
@@ -105,7 +98,7 @@ npm run build # Build de producción
 npm test # Ejecuta pruebas unitarias
 npm run lint # Verifica código con ESLint
 
-text
+----
 
 ## 🎨 Paleta de Colores
 
@@ -123,4 +116,3 @@ GitHub: [@IvanAlejandroMancilla](https://github.com/IvanAlejandroMancilla)
 Este proyecto es parte de una prueba técnica para Carsales.
 ---
 ⭐ Si este proyecto te resultó útil, no dudes en dar una estrella al repositorio.
-
