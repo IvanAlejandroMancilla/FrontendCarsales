@@ -9,8 +9,22 @@
 </div>
 
 <div class="grid-container">
-  <button>Episodios</button>
-  <button>Personajes</button>
-  <button>Lugares</button>
+  <button (click)="navigateToEpisodes()">Episodios</button>
+  <button
+    (click)="navigateTo('/characters')"
+    [disabled]="active === 0"
+    [class.disabled]="active === 0">
+    Personajes
+  </button>
+  <button
+    (click)="navigateTo('/locations')"
+    [disabled]="active === 0"
+    [class.disabled]="active === 0">
+    Lugares
+  </button>
 </div>
+
+
+
+
 </body>
